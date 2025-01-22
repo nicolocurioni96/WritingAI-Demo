@@ -14,6 +14,7 @@ struct HomeView: View {
     var body: some View {
         VStack {
             CustomTextEditor(text: $text)
+                .writingToolsBehavior(.automatic)
         }
         .padding()
     }
