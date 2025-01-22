@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var text: String = ""
+    @State var text: NSAttributedString?
     
     var body: some View {
         VStack {
